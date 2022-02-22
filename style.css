@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  display: flex;
+  height: 100%;
+}
+#leftdiv{
+  background-color: lightgrey;
+  width: 50%;
+  height: 100%;
+
+
+}
+#rightdiv{
+    display: flex;
+    background-color: lightyellow;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+textarea{
+  height: 30%;
+  width: 75%;
+}
+.todolist{
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+  margin: 3px;
+  height: 25px;
+}
